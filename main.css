@@ -1,0 +1,175 @@
+body{
+	background-color: #43edd3;
+	padding-top: 60px;
+	padding-bottom: 120px;
+    /*background: -moz-linear-gradient(-45deg, #43edd3 0%, #d135ed 100%);
+    background: -webkit-linear-gradient(-45deg, #43edd3 0%, #d135ed 100%);
+    background: linear-gradient(135deg, #43edd3 0%, #d135ed 100%);*/
+    font-family: sans-serif;
+}
+p{
+	color: rgb(54, 69, 90);
+}
+h3{
+	font-size: 26px;
+}
+.profile{
+	background: white;
+	max-width: 370px;
+	/*height: 1200px;*/
+	padding-bottom: 167px;
+	border-radius: 18px;
+	position: relative;
+}
+.details{
+	padding-left: 20%;
+}
+.details ul li{
+	margin-top: 5px;
+} 
+.details .list-icon i{
+	padding-right: 10px;
+}
+.mail{
+	background-color: rgb(241, 242, 243);
+	padding:50px 0px;
+	border-radius: 18px;
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	text-align: center;
+
+}
+.email-me{
+	background: linear-gradient(to bottom, #256af3 0%, #3488f4 100%);
+    border-radius: 24px;
+    padding: 12px 28px;
+}
+.about-me{
+	background: white;
+	max-width: 810px;
+	border-radius: 18px;
+}
+.card{
+	display: inline-block;
+	margin-top: 60px;
+	border-radius: 20px;
+	
+}
+.divider{
+	max-width: 110px;
+	border-bottom: 4px solid rgb(4, 36, 242);
+	margin-left: 30px;
+	margin-top: -10px;
+}
+.basic-details{
+	background-color: rgb(241, 242, 243);
+	width: 100%;
+	margin-top: 40px;
+    border-radius: 18px;
+}
+.card3{
+	max-width: 700px;
+
+}
+.card4{
+	max-width: 700px;
+	margin-top: 20px;
+	margin-bottom: 65px;
+}
+.card-body1{
+	padding-top: 10px!important;
+	padding-bottom: 0px!important;
+}
+.profession{
+	background-color: rgb(236, 236, 244);
+    padding: 8px 16px;
+    max-width: 150px;
+    border-radius: 20px;
+    color: rgb(76, 90, 109);
+}
+.profile-image{
+	max-width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+
+/*media query for email me button*/
+@media only screen and (max-width: 1100px){
+	.mail{
+		bottom: 0px;
+	}
+	.profile{
+		padding-bottom: 120px!important;
+	}
+	.details{
+      padding-left: 10%;
+	}
+}
+
+@media only screen and (min-width: 720px) and (max-width: 769px){
+	.profile{
+		max-width: 600px!important;
+		margin-left: 0px!important;
+		margin-bottom: 50px;
+		padding-bottom: 303px!important;
+	}
+}
+@media only screen and (min-width: 480px) and(max-width: 720px){
+	.profile{
+		max-width: 700px!important;
+		margin-left: 0px!important;
+		margin-bottom: 50px;
+		padding-bottom: 170px!important;
+	}
+h3{
+	font-size: 30px;
+}
+	.details{
+      padding-left: 30%!important;
+	}
+	.card{
+		float:none!important;
+		margin-left: 25%;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.profile{
+		margin-bottom: 50px;
+		margin-left: 38px!important;
+	}
+	.details{
+      padding-left: 25%!important;
+	}
+	.card{
+		float:none!important;
+		margin-left: 13%;
+	}
+}
+@media only screen and (max-width: 414px){
+	.profile{
+		margin-bottom: 50px;
+		margin-left: 6px!important;
+	}
+	.card{
+		float:none!important;
+		margin-left: 7%;
+	}
+}
+@media only screen and (max-width: 411px){
+	.profile{
+		margin-bottom: 50px;
+		margin-left: 6px!important;
+	}
+	.card{
+		float:none!important;
+		margin-left: 7%;
+	}
+}
+@media only screen and (max-width: 375px){
+	.card{
+		float: none!important;
+		margin-left: 1%;
+	}
+}
